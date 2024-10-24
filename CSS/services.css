@@ -1,0 +1,71 @@
+#luxhead{
+    background-color: aqua;
+    text-align: center;
+    line-height: 80px;
+}
+#luxhead:hover{
+    background-color: blue;
+}
+.para1{
+    font-size: 40;
+    font-style: italic;    
+}
+#divi{
+    background-color: aquamarine;
+    margin: 50px;
+    padding: 20px;
+    color: blue;
+}
+
+#Test{
+    background-color: yellow;
+    margin: 30px;
+    padding: 15px;
+    display: flex;
+}
+
+#Test p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+    font-size: 24px;
+}
+
+#divpic{
+    margin-right: 20px;
+    border-radius: 16px;
+    
+}
+
+#main{
+    display: flex;
+    margin: 20px;
+}
+
+.icon-main{
+    width: 100px;
+    height: auto;
+    margin: 10px;
+    
+}
+ #main p, h1{
+    margin-left: 13px;
+    margin-right: 13px;
+ }
+#payment{
+    background-color: rgb(107, 107, 230);
+    margin: 5px;
+    border-radius: 15px;
+}
+
+#advertisement{
+    background-color: aqua;
+    margin: 5px;
+    border-radius: 15px;
+
+}
+
+#accounting{
+    background-color: rgb(207, 129, 129);
+    margin: 5px;
+    border-radius: 15px;
+}

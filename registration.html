@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="CSS/registration.css">
+    <style>
+        body{
+            background-image: url("assets/Carimage5.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+    </style>
+</head>
+<body>
+    
+<form action="">
+    <legend>CREATE AN ACCOUNT</legend> <br>
+
+    <label for="firstname">First Name: </label>
+    <input type="text"id="firstname" placeholder="John Doe" required="required" class="textins"> <br> <br>
+     
+    <label for="surname">Surname: </label>
+    <input type="text" id="surname" placeholder="Smith" required="required" class="textins"> <br><br>
+
+    <label for="dob">Date of Birth: </label>
+    <input type="date"  id="dob" placeholder="Enter your date of birth" required="required" class="textins"> <br><br>
+
+    <label for="usemail">Email Adress: </label>
+    <input type="email" name="" id="usemail" placeholder="johndoe45@gmail.com" class="textins"> <br><br>
+
+    <label for="phone">Enter your Phone Number: </label>
+    <input type="number" name="" id="phone" placeholder="079 999 9999" class="textins" > <br><br>
+
+    <label for="pass">Enter Password</label>
+    <input type="password" name="" id="pass" placeholder="type your password here" class="textins"> <br><br>
+
+    <label for="cv"  >Upload CV</label>
+    
+    <input type="file" name="" id="CV" class="textins">  <br>
+    <br>
+
+    <label for="nationality" >Whats Your Nationality?</label>
+    <select name="" id="nationality" class="textins">
+        <option value="" disabled="disabled">--Choose Nationality--</option>
+        <option value="Dutch">Dutch</option>
+        <option value="Italian">Italian</option>
+        <option value="Italian">Italian</option>
+        <option value="Kenyan">Kenyan</option>
+    </select>
+    <br><br>
+
+    <label > Choose Gender; </label>
+    <br>
+    <input type="radio" name="" id="Male">
+    <label for="Male">Male</label> <br>
+
+    <input type="radio" name="" id="Female">
+    <label for="Female">Female</label> <br>
+
+    <input type="radio" name="" id="Other">
+    <label for="Other">Other</label> <br><br>
+
+
+    <label for="">Hobbies</label> <br> 
+
+    <input type="checkbox" name="" id="cricket">
+    <label for="cricket">Cricket</label> <br>
+
+    <input type="checkbox" name="" id="hockey">
+    <label for="hockey">Cricket</label> <br>
+
+    <input type="checkbox" name="" id="rugby">
+    <label for="rugby">Cricket</label> <br> <br>
+
+    <label for="Message">Describe Yourself</label> <br>
+    <textarea name="" id="Message" cols="50" rows="10" placeholder="Tell us a bit about yourself"> </textarea> <br><br>
+
+    <button type="submit">Submit</button> <br>
+
+    
+
+</form>
+
+</body>
+</html>

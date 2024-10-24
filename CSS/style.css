@@ -1,0 +1,13 @@
+h1{
+    font-size: 40px;
+    color: blue;
+    background-color: aquamarine;
+    font-style: italic;
+    text-align: center;
+    line-height: 100px;
+    text-shadow: 12px 4px 12px red;
+    
+}
+h1:hover{
+    background-color: blueviolet;
+}
